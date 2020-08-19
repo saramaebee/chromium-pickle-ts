@@ -1,0 +1,25 @@
+{
+  "name": "chromium-pickle-ts",
+  "version": "1.0.0",
+  "description": "This is a TypeScript port of chromium-pickle-js so as to avoid the use of `const pickle = require('chromium-pickle-js')` in TypeScript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saramaebee/chromium-pickle-ts.git"
+  },
+  "keywords": [
+    "pickle",
+    "chromium-pickle",
+    "typescript",
+    "ts"
+  ],
+  "author": "saramaebee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saramaebee/chromium-pickle-ts/issues"
+  },
+  "homepage": "https://github.com/saramaebee/chromium-pickle-ts#readme"
+}
