@@ -1,7 +1,7 @@
 import Pickle from './pickle';
 import Constants from './utils/constants';
 
-class PickleIterator {
+export default class PickleIterator {
 	private payload: Buffer;
 	private parloadOffset: number;
 	private readIndex: number;
@@ -78,5 +78,3 @@ class PickleIterator {
 		}
 	}
 }
-
-export default PickleIterator;

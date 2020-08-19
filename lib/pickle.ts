@@ -1,7 +1,7 @@
 import Constants from './utils/constants';
 import PickleIterator from './pickleIterator';
 
-class Pickle {
+export default class Pickle {
 	private buffer: Buffer;
 	private header: Buffer;
 	private headerSize: number;
@@ -118,5 +118,3 @@ class Pickle {
 		this.capacityAfterHeader = newCapacity;
 	}
 }
-
-export default Pickle;
