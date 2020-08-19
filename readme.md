@@ -32,7 +32,7 @@ The biggest change in how this works from `chromium-pickle-js` is the intial set
 // If using from source because i haven't published to npm yet, "/<path to chromium-pickle-ts>/lib/pickleFactory"
 import PickleFactory from "chromium-pickle-ts"
 
-const pickle = new Pickle();
+const pickle = new PickleFactory();
 ```
 Now `pickle` may be used exactly as if you had done `const pickle = require('chromium-pickle-js');`
 
